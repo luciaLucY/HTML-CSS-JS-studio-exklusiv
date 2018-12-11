@@ -1,0 +1,128 @@
+<!--Kontakta oss page designed by Svetla-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Top Projekts</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="css/normalized.css">    
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+  
+  <div class="grid-master">
+    <header>
+      <nav class="topnav" id="myTopnav">
+        <ul>
+          <li>
+            <a href="index.html" ><img src="media/Studio_logo.png" alt="studio exklusiv logo" class="headerlogo "></a>
+          </li>
+          <li><a href="omoss.html" class="toright">Om   Oss</a></li>
+          <li><a href="projekt.html" class="toright">Top projekt</a></li>
+          <li><a href="kontakta.html" class="toright active">Kontakta oss</a></li>
+          <li><a href="javascript:void(0);"  id="menu-icon" onclick="navToggle()">
+            <i class="material-icons">menu</i></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Kontakta Oss</h1>
+      <div class="grid-image-container1">
+        
+        <div class ="grid-item">
+          <img src="media/turningtorso.jpg" alt="Turning Torso building image" class="img-fluid1"> 
+        </div>
+      
+        <div class ="grid-item2" >
+          <br><br>
+            <p><i class="material-icons">
+                local_phone</i><a href="tel:+46-555-555-5555" rel="nofollow">07 555-555-5555</a></li> <!--A snippet to make direct call-->
+            </p> 
+          
+            <p><i class="material-icons">
+              email</i>
+              <a href="mailto:studio.exklusiv@info.com" target="_blank">majla Studio Exklusiv</a></p>
+              <div  id="tidtabel">
+              <h3>Våra tidtabel:</h3>
+              <h5>mo-fre: 9-16</h5>
+                <br>Special meeting hour under request
+                
+              </div>
+              <br><br>
+        </div>
+        <!-- <div class ="grid-item2" id="tidtabel">
+          <h3>Våra tidtabel:</h3>
+          <h5>mo-fre: 9-16</h5>
+            <br>Special meeting hour under request
+          
+       </div> -->
+        <div class ="grid-item">
+          <a href="https://goo.gl/maps/n3bvGWZGMwF2"><img src="media/turningtorsomap1.png" alt="Google map of the Turning Torso" class="img-fluid1">
+          </a>
+      </div>
+
+      
+        <!--div closes class="grid-image-container1"-->
+      
+
+        <!-- FOR the SUBSCRIPTION FORM -->
+      
+      <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">Namn</label>
+            <input type="text" id="fname" name="firstname" placeholder="Ditt namn..">
+        
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Ditt email..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Skriva oss.." style="height:100px"></textarea>
+        
+            <!-- <input type="submit" value="Submit">  -->
+            <form method="post" action="mailto:studio.exklusiv@gmail.com" >
+                <input type="submit" value="Skicka e-post" /> 
+            </form>
+      
+      </div>
+    </div> <!--div closes class="grid-image-container1"-->
+    </main>
+
+    <footer class="footgrid">
+        <div class="footgrid-item footborder"> copyright &copy; 2018 <p>info@studioexklusiv.se </p></div>
+        <div class="footgrid-item footborder2">  
+            <ul>
+                <li> <a href="index.html" > Hem </a> </li>
+                <li> <a href="omoss.html"> Omoss </a> </li>
+                <li> <a href="projekt.html" > Top&nbsp;projekt</a> </li>
+                <li> <a href="kontakta.html"> Kontakta&nbsp;oss</a> </li>
+            </ul> 
+        </div>
+        <div class="footgrid-item footborder">Turning Torso, <br> Malmö, Sweden </div>
+        <div class="footgrid-item footborder2">All rights reserved by Studio Exklusiv</div>       
+
+    </footer>
+
+    <script>
+      /* detta år en flerradskomentar i JavaScript*/
+      //detta är en enradskomentar i JS
+      /*
+        En funktion som läger till/tar bort klassen "dropped" på .topnav när användaren trycker på meny-ikonen
+      */
+      function navToggle() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " dropped";
+          //mellan slag innan dropped är viktigt
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </div> <!--div that closes the grid-master -->
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Top Projekts</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="css/normalized.css">    
+  <link rel="stylesheet" href="css/style22.css">
+</head>
+
+<body>
+  <div class="grid-master">
+    
+      <nav class="topnav" id="myTopnav">
+        <ul>
+          <li>
+            <a href="index.html" ><img src="media/Studio_logo.png" alt="studio exklusiv logo" class="headerlogo "></a>
+          </li>
+          <li><a href="omoss.html" class="toright">Om Oss</a></li>
+          <li><a href="projektNavBarMy.html" class="toright active">Top projekt</a></li>
+          <li><a href="kontakta.html" class="toright">Kontakta oss</a></li>
+          <li><a href="javascript:void(0);"  id="menu-icon" onclick="navToggle()">
+            <i class="material-icons">menu</i></a></li>
+        </ul>
+      </nav>
+    
+    
+    <main>
+      <h1>Top Projekt</h1>
+      <div class="grid-image-container1">
+        
+        <div class ="grid-item">
+          <img src="media/projekt_1.jpg" alt="studio exklusiv first project" class="img-fluid">
+        <!-- </div>
+        <div> -->
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur voluptas adipisci quia aspernatur optio fuga voluptatibus dolor eligendi recusandae consequuntur aliquid dicta asperiores eos laborum distinctio, illum animi accusamus! Qui?</p> 
+        </div>
+      
+        <div class ="grid-item">
+          <img src="media/projekt_2.jpg" alt="studio exklusiv second project" class="img-fluid">
+        <!-- </div>
+        <div> -->
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eveniet dolorem sapiente molestiae esse sit laudantium atque dolores corporis, tempore alias iste eos aliquam, odio amet? Hic dignissimos tempore quae?</p>
+        </div>
+
+          <div class ="grid-item">
+            <img src="media/projekt_3.jpg" alt="studio exklusiv tirdth project" class="img-fluid">
+          <!-- </div>
+
+          <div> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero sequi ea reprehenderit, error hic voluptatum explicabo culpa, ipsa atque distinctio reiciendis dolore laborum eius aperiam blanditiis necessitatibus praesentium temporibus!</p>
+          </div>
+
+        <div class ="grid-item">
+
+            <img src="media/projekt_8_copy.jpg" alt="studio exklusiv fourth project" class="img-fluid">
+           <!-- </div> 
+
+          <div> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, similique modi consectetur praesentium dolorum explicabo corrupti iste quis ex suscipit repellat eaque hic iure, laboriosam expedita quo tempore. In, possimus.</p>
+          </div>
+      </div>
+    
+
+    <h1>Top kundern</h1>
+      <div class="grid-image-container2">
+          <div class ="grid-item">
+            <img src="media/zlatan_klient_1.jpg" alt="image of Zlatan Ibrahimovic" class="img-fluid">
+          <!-- </div>
+
+          <div> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque at maxime iste dolor expedita voluptates, sed, aliquam dolorem recusandae blanditiis id corrupti aspernatur adipisci necessitatibus possimus tenetur, quas facilis ratione?</p>
+          <!-- </div> -->
+          </div>  
+
+          <div class ="grid-item">
+            <img src="media/dannysaucedo_klient_2_copy.jpg" alt="image of Danny Saucedo" class="img-fluid">
+          <!-- </div>
+
+          <div> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto error quidem ex obcaecati quos dolore officiis accusantium similique modi hic, sequi, consectetur corrupti culpa earum voluptatem quasi iure fugiat deleniti.</p>
+          </div>
+        <!-- </div> -->
+
+        <div class ="grid-item">
+          <img src="media/mollysanden_klient_3_copy.jpg" alt="image of Molly Sanden" class="img-fluid">
+        <!-- </div>
+        <div> -->
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione, porro sed officiis natus ipsa molestiae dolores eum assumenda obcaecati dolorum tenetur veritatis harum tempora vitae nostrum, blanditiis quibusdam reiciendis!</p>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footgrid">
+        <div class="footgrid-item footborder"> copyright &copy; 2018 <p>info@studioexklusiv.se </p></div>
+        <div class="footgrid-item footborder2">  
+            <ul>
+                <li> <a href="index.html" > Hem </a> </li>
+                <li> <a href="omoss.html"> Omoss </a> </li>
+                <li> <a href="projekt.html" > Top&nbsp;projekt</a> </li>
+                <li> <a href="kontakta.html"> Kontakta&nbsp;oss</a> </li>
+            </ul> 
+        </div>
+        <div class="footgrid-item footborder">Turning Torso, <br> Malmö, Sweden </div>
+        <div class="footgrid-item footborder2">All rights reserved by Studio Exklusiv</div>       
+
+    </footer>
+
+    <script>
+      /* detta år en flerradskomentar i JavaScript*/
+      //detta är en enradskomentar i JS
+      /*
+        En funktion som läger till/tar bort klassen "dropped" på .topnav när användaren trycker på meny-ikonen
+      */
+      function navToggle() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " dropped";
+          //mellan slag innan dropped är viktigt
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </div>
+</body>
+</html>

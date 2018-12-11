@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hem | Studio Exklusiv</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    
+</head>
+<body>
+        <nav class="topnav" id="myTopnav">
+                <ul>
+                    <li>
+                    <a href="index.html" ><img src="media/Studio_logo.png" alt="studio exklusiv logo" class="headerlogo "></a>
+                    
+                    </li>
+        
+                    <li>
+                    <a href="omoss.html" class="toright ">Om oss</a>
+                    </li>
+                    <li>
+                    <a href="projekt.html" class="toright ">Top projekt</a>
+                    </li>
+                    <li>
+                    <a href="kontakta.html" class="toright">Kontakt oss </a>
+                    </li>
+                    <li>
+                    <a href="javascript:void(0);" id="menu-icon" onclick="navToggle()"> 
+                        <i class="material-icons">menu</i></a>
+                    </li>
+                </ul>
+            </nav>
+    <header>
+    </header>
+   
+    <main>
+         <div class="grid-container">
+                    <div class="top grid-item allbox box1">
+                        <h2>
+                            <a href="projekt.html" > 
+                                kända kunder</a>
+                        </h2>
+                     </div>
+                     <div class="top grid-item allbox box2">
+                            <h2>
+                                <a href="omoss.html" > 
+                                    våra designers</a>
+                            </h2>
+                     </div>
+                     <div class="bottom grid-item allbox box3">
+                            <h2>
+                                <a href="omoss.html#erkansla" > 
+                                    erkänsla</a>
+                            </h2>
+                    </div>
+                    <div class="bottom grid-item allbox box4">
+                            <h2>
+                                <a href="projekt.html" >topprojekt</a>
+                            </h2>
+                    </div>
+         </div>    
+                <br><br> <br> <br>  
+    </main>
+    <footer class="footgrid">
+           
+        <div class="footgrid-item footborder"> copyright &copy; 2018 <p>info@studioexklusiv.se </p></div>
+        <div class="footgrid-item footborder2">  
+            <ul>
+                <li> <a href="index.html"> Hem </a> </li>
+                <li> <a href="omoss.html"> Om&nbsp;oss </a> </li>
+                <li> <a href="projekt.html" > Top&nbsp;projekt</a> </li>
+                <li> <a href="kontakta.html"> Kontakta&nbsp;oss</a> </li>
+            </ul> 
+        </div>
+        <div class="footgrid-item footborder">Turning Torso, <br> Malmö, Sweden </div>
+        <div class="footgrid-item footborder2">All rights reserved by Studio Exklusiv</div>       
+
+    </footer>
+    <script>
+        
+            /* detta är flerradskommentar
+            i javascript*/
+    
+            // detta är en radskommentar
+        
+            /* en funktion som lagger till/ tar bort klassen dropped på .topnav när anvädaren tryker på meny-ikonen */
+    
+            function navToggle() {
+                var x = document.getElementById("myTopnav");
+    
+                if (x.className === "topnav") {
+                    x.className += " dropped";
+                    
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        
+        </script>
+    
+</body>
+</html>
